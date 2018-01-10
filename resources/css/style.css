@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: .9;
+}
+
+.nav-header {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid seashell;
+
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 2;
+  height: 69px;
+
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  align-items: center;
+}
+
+a .nav {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+a {
+  margin-left: 20px;
+  text-decoration: underline;
+}
+
+.image-lg #hero {
+  background-image: url(../../resources/img-mission-background.jpg);
+  height: 700px;
+}
