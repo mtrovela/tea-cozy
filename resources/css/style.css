@@ -41,16 +41,19 @@ a {
 .content {
   display: flex;
   flex-direction: column;
-  margin: 0 40px 0 40px;
+  justify-content: center;
+  margin: auto;
 }
 
 .hero {
   background-image: url("../../resources/images/img-mission-background.jpg");
   background-size: cover;
   display: flex;
+  justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 1200px;
   height: 700px;
+  margin: 0 auto 80px auto;
 }
 
 
@@ -63,4 +66,36 @@ a {
   background-color: black;
   width: 100%;
   margin: 10px 0 10px 0;
+}
+
+.subsection {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  width: 1000px;
+}
+
+.image-content {
+  width: 300px;
+  margin-top: 40px;
+}
+
+.image {
+  /* display: flex; */
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 200px;
+}
+
+.fall-berry-blitz {
+  background-image: url("../../resources/images/img-berryblitz.jpg");
+  /* width: 300px;
+  height: 200px; */
+}
+
+h4 {
+  text-align: center;
+  padding-top: 10px;
 }
