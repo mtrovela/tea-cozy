@@ -10,6 +10,9 @@ body {
   display: flex;
   padding: 10px;
   border-bottom: 1px solid seashell;
+  position: fixed;
+  background-color: black;
+  width: 100%
 
 }
 
@@ -68,6 +71,10 @@ a {
   margin: 10px 0 10px 0;
 }
 
+.section-title {
+  margin-bottom: 40px;
+}
+
 .subsection {
   display: flex;
   justify-content: center;
@@ -78,7 +85,7 @@ a {
 
 .image-content {
   width: 300px;
-  margin-top: 40px;
+  margin: 20px 10px 20px 10px;
 }
 
 .image {
@@ -89,13 +96,83 @@ a {
   height: 200px;
 }
 
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.label {
+  margin: 10px;
+}
+
 .fall-berry-blitz {
   background-image: url("../../resources/images/img-berryblitz.jpg");
-  /* width: 300px;
-  height: 200px; */
+}
+
+.spiced-rum {
+  background-image: url("../../resources/images/img-spiced-rum.jpg");
+}
+
+.donut {
+  background-image: url("../../resources/images/img-donut.jpg");
+}
+
+.myrtle-ave {
+  background-image: url("../../resources/images/img-myrtle-ave.jpg");
+}
+
+.bizarre {
+  background-image: url("../../resources/images/img-bedford-bizarre.jpg");
 }
 
 h4 {
   text-align: center;
   padding-top: 10px;
+}
+
+.locations {
+  width: 1200px;
+  height: 500px;
+  background-image: url("../../resources/images/img-locations-background.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 40px auto 15px auto;
+}
+
+
+
+.block-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin: 20px;
+  opacity: 1;
+}
+
+.clear-banner {
+    margin-bottom: 0;
+  }
+
+.footer {
+  text-align: center;
+  height: 200px;
+}
+
+#copyright {
+  margin-left: 20px;
 }
